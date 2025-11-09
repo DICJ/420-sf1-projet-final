@@ -1,5 +1,12 @@
 from urllib import request
 
+#liste des sentiments (à utiliser dans vos fonctions seulement)
+amour = ["love", "affection", "heart", "kiss", "romance"]
+colère = ["anger", "hate", "rage", "fury", "violence"]
+peur = ["fear", "terror", "afraid", "horror", "scared"]
+tristesse = ["sad", "cry", "tears", "grief", "sorrow"]
+
+
 #fonction permettant de recevoir le livre sous forme de liste de ligne (en string) du livre
 #elle retourne la liste de ligne du roman
 def book_to_line_list():
